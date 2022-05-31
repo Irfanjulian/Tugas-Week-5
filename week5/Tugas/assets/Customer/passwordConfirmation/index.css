@@ -1,0 +1,208 @@
+@font-face {
+    font-family: FontMetropolis;
+    src: url(../../../font/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: FontMetropolisLight;
+    src: url(../../../font/metropolis/Metropolis-Light.otf);
+}
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Container 1 */
+.container{
+    height: 200px;
+    width: 200px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.logo{
+    height: 50px;
+    width: 35.84503936767578px;
+    float: left;
+}
+.container .Blanja{
+    padding-left: 10px;
+    padding-top: 10px;
+    /* height: 20px;
+width: 85px;
+left: 702px;
+top: 120px;
+border-radius: nullpx;
+font-family:  */
+}
+.Blanja{
+    font-family: fontMetropolis;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 20px;
+color: #DB3022;
+}
+/* Akhir Container 1 */
+
+
+/* Container 2 */
+.container2{
+    height: 50px;
+    width: 300px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.text1{
+    font-family: fontMetropolis;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+/* Akhir Container 2 */
+
+
+.container7{
+    height: 20px;
+    width: 542px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.container7 p{
+    font-family: fontMetropolisLight;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #F01F0E;
+}
+
+
+/* Container4 */
+.container3{
+    height: 48px;
+    width: 400px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 45px;
+}
+.container3 input{
+    position: absolute;
+    box-sizing: border-box;
+    width: 400px;
+    height: 48px;
+    border: 1px solid #9B9B9B;
+filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+border-radius: 4px;
+/* Font */
+font-family: fontMetropolisLight;
+padding-left: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #9B9B9B;
+}
+/* Akhir Container 4 */
+
+
+.container8{
+    height: 48px;
+    width: 400px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 11px;
+}
+.container8 input{
+    position: absolute;
+    box-sizing: border-box;
+    width: 400px;
+    height: 48px;
+    border: 1px solid #9B9B9B;
+filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+border-radius: 4px;
+/* Font */
+font-family: fontMetropolisLight;
+padding-left: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #9B9B9B;
+}
+
+
+/* Container 6 */
+.container4{
+    height: 14px;
+    width: 400px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.container4 p{
+    font-family: fontMetropolisLight;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #DB3022;
+}
+/* Akhir Container 6 */
+
+
+/* Container 7 */
+.container5{
+    height: 48px;
+    width: 401px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.container5 button{
+    height: 48px;
+    width: 401px;
+    border: 0px;
+    background: #DB3022;
+    border-radius: 25px;
+    /* Font */
+    font-family:fontMetropolisLight ;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
+/* Akhir Container7 */
+

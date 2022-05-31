@@ -1,0 +1,183 @@
+@font-face {
+    font-family: FontMetropolis;
+    src: url(../../../font/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: FontMetropolisLight;
+    src: url(../../../font/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+    font-family: fontPoppins;
+    src: url(../../../font/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: fontPoppinsLight;
+    src: url(../../../font/Poppins/Poppins-Light.ttf);
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #F0F5F9;
+}
+
+.mainContainer{
+    width: 600px;
+    height: 707px;
+    margin: auto;
+    margin-top: 45px;
+    /* border: 3px solid black; */
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+/* Container 1 */
+.container{
+    height: 200px;
+    width: 200px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -20px;
+}
+.logo{
+    height: 50px;
+    width: 35.84503936767578px;
+}
+.container .Blanja{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Blanja{
+    font-family: fontMetropolis;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 20px;
+color: #DB3022;
+}
+/* Akhir Container 1 */
+
+
+/* Container 2 */
+.container2{
+    height: 50px;
+    width: 300px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.text1{
+    font-family: fontPoppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+/* Akhir Container 2 */
+
+
+/* Container4 */
+.container3{
+    height: 205px;
+    width: 205px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 35px;
+}
+.container3 image{
+    height: 205px;
+    width: 205px;
+}
+/* Akhir Container 4 */
+
+
+/* Container 6 */
+.container4{
+    height: 42px;
+    width: 300px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.container4 p{
+    font-family: fontPoppinsLight;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+color: #46505C;
+}
+/* Akhir Container 6 */
+
+
+/* Container 7 */
+.container5{
+    height: 48px;
+    width: 401px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 35px;
+}
+.container5 button{
+    height: 48px;
+    width: 401px;
+    border: 0px;
+    background: #DB3022;
+    border-radius: 25px;
+    /* Font */
+    font-family:fontMetropolisLight ;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
+/* Akhir Container7 */
+
+
+/* Container8 */
+.container6{
+    width: 600px;
+    height: 22px;
+    background-color: #DF4538;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 50px;
+}
+
+/* <table class="search">
+            <tr>
+                <td>
+                <input type="text" placeholder="search">
+                </td>
+                <td>
+                    <a href=""><img src="../../image/search.png" alt=""></a>
+                </td>
+            </tr>
+            </table>
+            <div class="filter">
+                <a href="" class="imgfilter"><img src="../../image/Filter.png" alt=""></a>
+            </div> */

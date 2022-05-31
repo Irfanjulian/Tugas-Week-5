@@ -1,0 +1,743 @@
+@font-face {
+    font-family: FontMetropolis;
+    src: url(../../../font/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: FontMetropolisLight;
+    src: url(../../../font/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+    font-family: FontMetropolisSemi;
+    src: url(../../font/metropolis/Metropolis-SemiBold.otf);
+}
+@font-face {
+    font-family: FontMetropolisMed;
+    src: url(../../font/metropolis/Metropolis-Medium.otf);
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+/* Nav */
+.container{
+    height: 80px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+}
+.wrapperLogo{
+    position: absolute;
+    width: 140px;
+    height: 44px;
+    left: 150px;
+    top: 25px;
+    /* border: 1px solid black; */
+}
+.logo img{
+    position: absolute;
+    width: 31.54px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+}
+.Blanja{
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 40px;
+    top: 15px;
+    font-family: fontMetropolis;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #DB3022;
+}
+.wrapperinput{
+    position: absolute;
+    width: 570px;
+    height: 44px;
+    left: 330px;
+    top: 30px;
+    /* border: 1px solid black; */
+}
+input{
+    position: absolute;
+    width: 507px;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    border-radius: 23px;    
+    background: none;
+    border: 1px solid #8E8E93;
+    /* font */
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+}
+input:focus{
+    outline: none;
+}
+.imgsearch{
+    position: absolute;
+    left: 475px;
+    top: 11px;
+    height: 18px;
+    width: 18px;
+}
+.aFilter{
+    position: absolute;
+    left: 520px;
+    top: 0px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+}
+.imgFilter{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    height: 18px;
+    width: 18px;
+}
+.wrapperOrder{
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 1000px;
+    top: 30px;
+    /* border: 1px solid black; */
+}
+.wrapperOrder img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 50px;
+    top: 8px;
+}
+.btnLogin{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 135px;
+    top: 3px;
+    background: #DB3022;
+    border: none;
+    border-radius: 25px;
+    /* font */
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.btnSignup{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 250px;
+    top: 3px;
+    background: none;
+    border: 1px solid #9B9B9B;
+    border-radius: 25px;
+    /* font */
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B; 
+}
+/* Akhir Nav */
+
+
+/* Body */
+/* Article */
+body article .container{
+    height: 780px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.container .tag{
+    position: absolute;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+.boxPhoto{
+    position: absolute;
+    height: 720px;
+    width: 590px;
+    top: 230px;
+    /* border: 1px solid black; */
+}
+.box{
+    position: absolute;
+    width: 263px;
+    height: 329px;
+    top: 20px;
+    left: 20px;
+    /* border: 1px solid black; */
+}
+.box2{
+    position: absolute;
+    width: 263px;
+    height: 329px;
+    top: 20px;
+    right: 20px;
+    /* border: 1px solid black; */
+}
+.box3{
+    position: absolute;
+    width: 263px;
+    height: 329px;
+    bottom: 20px;
+    left: 20px;
+    /* border: 1px solid black; */
+}
+.box4{
+    position: absolute;
+    width: 263px;
+    height: 329px;
+    bottom: 20px;
+    right: 20px;
+    /* border: 1px solid black; */
+}
+.boxDescript{
+    position: absolute;
+    height: 720px;
+    width: 590px;
+    top: 230px;
+    right: 200px;
+    /* border: 1px solid black; */
+}
+.boxDescript .p1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+}
+.boxDescript .p2{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+.rating{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 8px;
+    color: #9B9B9B;
+}
+.checked{
+    color: orange;
+}
+.boxDescript .p3{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+.boxDescript .p4{
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 33px;
+    color: #222222;
+}
+.boxDescript .p5{
+    position: absolute;
+    top: 245px;
+    left: 20px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.boxDescript .color{
+    position: absolute;
+    top: 275px;
+    left: 20px;
+}
+.ellipse{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 275;
+    border-radius: 50%;
+    background: black;
+}
+.ellipse2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 275;
+    left: 50px;
+    border-radius: 50%;
+    background: #D84242;
+}
+.ellipse3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 275;
+    left: 100px;
+    border-radius: 50%;
+    background: #4290D8;
+}
+.ellipse4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 275;
+    left: 150px;
+    border-radius: 50%;
+    background: #42D86C;
+}
+.boxDescript .p6{
+    position: absolute;
+    top: 360px;
+    left: 22px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.size{
+    position: absolute;
+    top: 390px;
+    left: 22px;
+}
+.minus{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+}
+.plus{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 70px;
+}
+.pSize{
+    position: absolute;
+    top: 10px;
+    left: 41px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.boxDescript .p7{
+    position: absolute;
+    top: 360px;
+    left: 230px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.jumlah{
+    position: absolute;
+    top: 390px;
+    left: 230px;
+}
+.minus2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+}
+.plus2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 70px;
+}
+.pJumlah{
+    position: absolute;
+    top: 10px;
+    left: 48px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperBtn{
+    position: absolute;
+    top: 480px;
+    left: 20px;
+}
+.btn1{
+    position: absolute;
+    height: 48px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;  
+    border: none;  
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.btn2{
+    position: absolute;
+    height: 48px;
+    width: 160px;
+    left: 185px;
+    top: 0px;
+    border-radius: 24px;   
+    border: none;  
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.btn3{
+    position: absolute;
+    height: 48px;
+    width: 343px;
+    left: 0px;
+    top: 80px;
+    border-radius: 25px;
+    background: #DB3022; 
+    border: none;  
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; 
+}
+/* Section */
+body section .container{
+    height: 620px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.information .p1{
+    position: absolute;
+    height: 28px;
+    width: 233px;
+    top: 1000px;
+    border-radius: nullpx;
+
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+}
+.information .p2{
+    position: absolute;
+    height: 28px;
+    width: 233px;
+    top: 1070px;
+    border-radius: nullpx;
+
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #222222;
+}
+.information .p3{
+    position: absolute;
+    height: 28px;
+    width: 233px;
+    top: 1095px;
+    border-radius: nullpx;
+
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #DB3022;
+}
+.information .p4{
+    position: absolute;
+    height: 28px;
+    width: 233px;
+    top: 1140px;
+    border-radius: nullpx;
+
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #222222;
+}
+.information .p5{
+    position: absolute;
+    height: 240px;
+    width: 1140px;
+    top: 1175px;
+    border-radius: nullpx;
+
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+.productReview{
+    position: absolute;
+    top: 1340px;
+}
+.information .p6{
+    position: absolute;
+    height: 28px;
+    width: 233px;
+    top: 0px;
+    border-radius: nullpx;
+
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+}
+.information .p7{
+    position: absolute;
+    top: 70px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    color: #222222;
+}
+.information .p7 span{
+    position: absolute;
+    top: 30px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+.rating2{
+    position: absolute;
+    top: 140px;
+    width: 150px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 8px;
+    color: #9B9B9B;
+}
+.checked{
+    color: orange;
+}
+.rating3{
+    position: absolute;
+    top: 60px;
+    left: 170px;
+    font-size: 14px;
+}
+.checked{
+    color: orange;
+}
+.span1{
+    position: absolute;
+    left: 20px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #9B9B9B; 
+}
+.line{
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    top: 68px;
+    left: 210px;
+    background-color: #DB3022;
+    border-radius: 5px;
+    border: none;
+}
+.angka{
+    position: absolute;
+    left: 345px;
+    top: 60px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+.line2{
+    position: absolute;
+    width: 1320px;
+    height: 2px;
+    top: 1550px;
+    left: 100px;
+    background-color: #D4D4D4;
+    border: none;
+}
+/* Akhir Section */
+
+
+/* Footer */
+body footer .container{
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.reference .p1{
+    position: absolute;
+    top: 1600px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 22px;
+    color: #222222;
+}
+.reference .p2{
+    position: absolute;
+    top: 1650px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+.wrapperRef{
+    position: absolute;
+    height: 250px;
+    width: 1295px;
+    top: 1700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.boxRef{
+    height: 248px;
+    width: 208px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.boxRef img{
+    width: 206px;
+    height: 136px;
+    border-radius: 8px 8px 0px 0px;
+}
+.boxRef .judul{
+    font-family: fontMetropolisSemi;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+.boxRef .price{
+    font-family: fontMetropolisSemi;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 20px;
+    color: #DB3022;
+}
+.boxRef p{
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+    padding-left: 20px;
+}
+.wrapperRef2{
+    position: absolute;
+    height: 250px;
+    width: 1295px;
+    top: 1970px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+
+/* Akhir Footer */
+/* Akhir Body */

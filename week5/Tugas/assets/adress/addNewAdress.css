@@ -1,0 +1,233 @@
+@font-face {
+    font-family: FontMetropolis;
+    src: url(../../../font/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: FontMetropolisLight;
+    src: url(../../../font/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+    font-family: FontMetropolisSemi;
+    src: url(../../font/metropolis/Metropolis-SemiBold.otf);
+}
+@font-face {
+    font-family: FontMetropolisMed;
+    src: url(../../font/metropolis/Metropolis-Medium.otf);
+}
+html, body, header{
+    background-color: #FFFFFF;
+}
+.container{
+    /* position: absolute; */
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content{
+    position: absolute;
+    width: 810px;
+    height: 675px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 8px;
+}
+a img{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 24.5px;
+    height: 24.5px;
+}
+.p1{
+    position: absolute;
+    left: 280px;
+    top: 70px;
+    font-family: FontMetropolisSemi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+}
+.text p{
+    position: absolute;
+    font-family: FontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+.p2{
+    left: 35px;
+    top: 140px;
+}
+.inp1{
+    position: absolute;
+    height: 48px;
+    width: 730px;
+    left: 35px;
+    top: 170px;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    font-family: FontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+.p3{
+    left: 35px;
+    top: 240px;
+}
+.inp2{
+    position: absolute;
+    height: 48px;
+    width: 350px;
+    left: 35px;
+    top: 270px;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+}
+.p4{
+    left: 415px;
+    top: 240px;
+}
+.inp3{
+    position: absolute;
+    height: 48px;
+    width: 350px;
+    left: 415px;
+    top: 270px;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+}
+.p5{
+    left: 35px;
+    top: 340px;
+}
+.inp4{
+    position: absolute;
+    height: 48px;
+    width: 350px;
+    left: 35px;
+    top: 370px;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+}
+.p6{
+    left: 415px;
+    top: 340px;
+}
+.inp5{
+    position: absolute;
+    height: 48px;
+    width: 350px;
+    left: 415px;
+    top: 370px;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+}
+.p7{
+    left: 35px;
+    top: 440px;
+}
+.inp6{
+    position: absolute;
+    height: 48px;
+    width: 350px;
+    left: 35px;
+    top: 470px;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+}
+.box input[type=checkbox]{
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(209, 208, 208);
+    border-radius: 4px;
+    cursor: pointer;
+    top: 550px;
+    left: 35px;
+}
+.box input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    content: "\f00c";
+    font-size: 13px;
+    left: 15px;
+    color: white;
+    display: none;
+    margin-top: 0px;
+    margin-left: 5px;
+    outline: none;
+}
+.box input[type=checkbox]:hover{
+    background-color: rgb(232, 228, 228);
+}
+.box input[type=checkbox]:checked{
+    background-color: #DB3022;
+}
+.box input[type=checkbox]:checked:after{
+    display: block;
+}
+#p8{
+    position: absolute;
+    top: 550px;
+    left: 65px;
+    font-family: FontMetropolisLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px;
+    color: #9B9B9B;
+}
+.btn1{
+    position: absolute;
+    height: 36px;
+    width: 160px;
+    right: 40px;
+    top: 600px;
+    background: #DB3022;
+    border-radius: 25px;
+    border: none;
+    font-family: FontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.btn2{
+    position: absolute;
+    height: 36px;
+    width: 160px;
+    right: 215px;
+    top: 600px;
+    border: 1px solid #9B9B9B;
+    border-radius: 24px;
+    background: none;
+    font-family: FontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}

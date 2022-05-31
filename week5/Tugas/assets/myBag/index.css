@@ -1,0 +1,559 @@
+@font-face {
+    font-family: FontMetropolis;
+    src: url(../../../font/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: FontMetropolisLight;
+    src: url(../../../font/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+    font-family: FontMetropolisSemi;
+    src: url(../../font/metropolis/Metropolis-SemiBold.otf);
+}
+@font-face {
+    font-family: FontMetropolisMed;
+    src: url(../../font/metropolis/Metropolis-Medium.otf);
+}
+html, body, header{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+/* Header */
+header nav .container{
+    height: 80px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+}
+.wrapperLogo{
+    position: absolute;
+    width: 140px;
+    height: 44px;
+    left: 150px;
+    top: 25px;
+    /* border: 1px solid black; */
+}
+.logo img{
+    position: absolute;
+    width: 31.54px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+}
+.Blanja{
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 40px;
+    top: 15px;
+    font-family: fontMetropolis;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #DB3022;
+}
+.wrapperinput{
+    position: absolute;
+    width: 570px;
+    height: 44px;
+    left: 330px;
+    top: 30px;
+    /* border: 1px solid black; */
+}
+input{
+    position: absolute;
+    width: 507px;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    border-radius: 23px;    
+    background: none;
+    border: 1px solid #8E8E93;
+    /* font */
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+}
+input:focus{
+    outline: none;
+}
+.imgsearch{
+    position: absolute;
+    left: 475px;
+    top: 11px;
+    height: 18px;
+    width: 18px;
+}
+.aFilter{
+    position: absolute;
+    left: 520px;
+    top: 0px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+}
+.imgFilter{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    height: 18px;
+    width: 18px;
+}
+.wrapperOrder{
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 1050px;
+    top: 30px;
+    /* border: 1px solid black; */
+}
+.imgOrder{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 50px;
+    top: 8px;
+}
+.imgNotif{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 110px;
+    top: 8px;
+}
+.imgChat{
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 170px;
+    top: 10px;
+}
+.imgProfil{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 235px;
+    top: 8px;
+    border: 1px solid #8E8E93;
+    border-radius: 50%;
+}
+/* Akhir Header */
+
+
+/* Body */
+body article .container{
+    height: 500px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.h1{
+    position: absolute;
+    height: 34px;
+    /* left: 10.42%; */
+    right: 80.97%;
+    top: 160px;
+    font-family: fontMetropolis;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+    color: #222222;
+}
+.wrapperForm{
+    position: absolute;
+    width: 1200px;
+    height: 420px;
+    /* border: 3px solid black; */
+    top: 220px;
+}
+
+
+/* Box */
+.box{
+    position: absolute;
+    width: 720px;
+    height: 64px;
+    left: 18px;
+    top: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+.box input[type=checkbox]{
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+}
+.box input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    content: "\f00c";
+    font-size: 13px;
+    left: 15px;
+    color: white;
+    display: none;
+    margin-top: -1px;
+    margin-left: -15px;
+    outline: none;
+}
+.box input[type=checkbox]:hover{
+    background-color: rgb(232, 228, 228);
+}
+.box input[type=checkbox]:checked{
+    background-color: #DB3022;
+}
+.box input[type=checkbox]:checked:after{
+    display: block;
+}
+.wrapperForm .box .p1{
+    position: absolute;
+    top: 23px;
+    left: 70px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperForm .box span{
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #8E8E93;
+}
+.wrapperForm .box p{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    color: #DB3022;
+}
+/* Akhir Box */
+
+
+/* Box2 */
+.box2{
+    position: absolute;
+    width: 720px;
+    height: 126px;
+    left: 18px;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+.box2 input[type=checkbox]{
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 50px;
+    left: 20px;
+}
+.box2 input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    content: "\f00c";
+    font-size: 13px;
+    left: 15px;
+    color: white;
+    display: none;
+    margin-top: -1px;
+    margin-left: -15px;
+    outline: none;
+}
+.box2 input[type=checkbox]:hover{
+    background-color: rgb(232, 228, 228);
+}
+.box2 input[type=checkbox]:checked{
+    background-color: #DB3022;
+}
+.box2 input[type=checkbox]:checked:after{
+    display: block;
+}
+.box2 img{
+    position: absolute;
+    width: 80px;
+    height: 69px;
+    left: 70px;
+    top: 30px;
+    border-radius: 8px;
+}
+.wrapperForm .box2 .p1{
+    position: absolute;
+    top: 47px;
+    left: 165px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperForm .box2 .p2{
+    position: absolute;
+    top: 72px;
+    left: 165px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+.wrapperForm .box2 .minus{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 430px;
+    top: 40px;
+}
+.wrapperForm .box2 .plus{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 500px;
+    top: 40px;
+}
+.wrapperForm .box2 .p3{
+    position: absolute;
+    top: 52px;
+    left: 478px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperForm .box2 .p4{
+    position: absolute;
+    top: 52px;
+    right: 30px;
+    font-family: fontMetropolis;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+/* Akhir Box2 */
+
+
+
+/* Box3 */
+.wrapperBox3{
+    position: absolute;
+    width: 730px;
+    height: 136px;
+    top: 140px;
+    /* border: 1px solid black; */
+}
+.box3{
+    position: absolute;
+    width: 720px;
+    height: 126px;
+    left: 18px;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+.box3 input[type=checkbox]{
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 50px;
+    left: 20px;
+}
+.box3 input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    content: "\f00c";
+    font-size: 13px;
+    left: 15px;
+    color: white;
+    display: none;
+    margin-top: -1px;
+    margin-left: -15px;
+    outline: none;
+}
+.box3 input[type=checkbox]:hover{
+    background-color: rgb(232, 228, 228);
+}
+.box3 input[type=checkbox]:checked{
+    background-color: #DB3022;
+}
+.box3 input[type=checkbox]:checked:after{
+    display: block;
+}
+.box3 img{
+    position: absolute;
+    width: 80px;
+    height: 69px;
+    left: 70px;
+    top: 30px;
+    border-radius: 8px;
+}
+.wrapperForm .box3 .p1{
+    position: absolute;
+    top: 47px;
+    left: 165px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperForm .box3 .p2{
+    position: absolute;
+    top: 72px;
+    left: 165px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+.wrapperForm .box3 .minus{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 430px;
+    top: 40px;
+}
+.wrapperForm .box3 .plus{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 500px;
+    top: 40px;
+}
+.wrapperForm .box3 .p3{
+    position: absolute;
+    top: 52px;
+    left: 478px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperForm .box3 .p4{
+    position: absolute;
+    top: 52px;
+    right: 30px;
+    font-family: fontMetropolis;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+/* Akhir Box3 */
+
+
+/* Box4 */
+.box4{
+    position: absolute;
+    width: 370px;
+    height: 180px;
+    left: 830px;
+    bottom: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+.wrapperForm .box4 .p1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.wrapperForm .box4 .p2{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+.wrapperForm .box4 .p3{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    font-family: fontMetropolisMed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+}
+.box4 button{
+    position: absolute;
+    height: 36px;
+    width: 322px;
+    left: 22px;
+    top: 120px;
+    background: #DB3022;
+    border: none;
+    border-radius: 25px;
+
+    font-family: fontMetropolisLight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* Akhir Body */
